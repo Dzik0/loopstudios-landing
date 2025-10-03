@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 @theme {
   --color-my-white: hsl(0, 0%, 100%);
@@ -10,10 +9,16 @@
 
   --breakpoint-md: 800px;
   --breakpoint-xl: 1440px;
+  --font-my-jose: "Josefin Sans", sans-serif;
+  --font-my-ala: "Alata", sans-serif;
+
+  --font-mySize: 100;
 }
 
 body {
   height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 100;
 }
 
 * {

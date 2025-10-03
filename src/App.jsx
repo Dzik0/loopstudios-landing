@@ -1,3 +1,13 @@
+import CreationSection from "./components/CreationSection";
+import HeroSection from "./components/HeroSection";
+import MobileHeader from "./components/MobileHeader";
+
 export default function App() {
-  return <h1 className="flex bg-red-500">Welcome World</h1>;
+  return (
+    <div>
+      <MobileHeader />
+      <HeroSection />
+      <CreationSection />
+    </div>
+  );
 }
