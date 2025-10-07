@@ -17,7 +17,7 @@ export default function CreationSection() {
           our creations
         </h2>
         <div>
-          <button className="font-my-jose border p-2 px-10 font-semibold tracking-[0.4rem] uppercase">
+          <button className="font-my-jose cursor-pointer border p-2 px-10 font-semibold tracking-[0.4rem] uppercase hover:bg-black hover:text-white">
             see all
           </button>
         </div>

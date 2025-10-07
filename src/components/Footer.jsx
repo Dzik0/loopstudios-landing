@@ -13,26 +13,26 @@ export default function Footer() {
         </div>
         <div>
           <ul className="flex flex-col gap-4 font-bold md:flex-row md:text-xs">
-            <li>About</li>
-            <li>Careers</li>
-            <li>Events</li>
-            <li>Products</li>
-            <li>Support</li>
+            <li className="cursor-pointer hover:text-yellow-200">About</li>
+            <li className="cursor-pointer hover:text-yellow-200">Careers</li>
+            <li className="cursor-pointer hover:text-yellow-200">Events</li>
+            <li className="cursor-pointer hover:text-yellow-200">Products</li>
+            <li className="cursor-pointer hover:text-yellow-200">Support</li>
           </ul>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-5 md:items-end">
         <div className="flex gap-5 md:gap-3">
-          <div className="md:w-4">
+          <div className="cursor-pointer md:w-4">
             <img src={facebook} alt="" />
           </div>
-          <div className="md:w-4">
+          <div className="cursor-pointer md:w-4">
             <img src={twitter} alt="" />
           </div>
-          <div className="md:w-4">
+          <div className="cursor-pointer md:w-4">
             <img src={pinterest} alt="" />
           </div>
-          <div className="md:w-4">
+          <div className="cursor-pointer md:w-4">
             <img src={instagram} alt="" />
           </div>
         </div>

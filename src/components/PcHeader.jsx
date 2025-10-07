@@ -11,11 +11,11 @@ export default function PcHeader() {
             <img src={logo} alt="" />
           </div>
           <ul className="flex gap-5 font-bold text-white">
-            <li>about</li>
-            <li>about</li>
-            <li>about</li>
-            <li>about</li>
-            <li>about</li>
+            <li className="cursor-pointer hover:text-amber-200">about</li>
+            <li className="cursor-pointer hover:text-amber-200">about</li>
+            <li className="cursor-pointer hover:text-amber-200">about</li>
+            <li className="cursor-pointer hover:text-amber-200">about</li>
+            <li className="cursor-pointer hover:text-amber-200">about</li>
           </ul>
         </nav>
       </div>
