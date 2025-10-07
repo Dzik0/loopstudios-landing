@@ -1,16 +1,59 @@
-# React + Vite
+Loopstudios Landing Page
+A visually engaging landing page project built with React and Tailwind CSS, inspired by modern VR studio aesthetics. This project features a responsive header (desktop and mobile layouts), dynamic content sections, a showcase of creations, and clean modular components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Preview
 
-Currently, two official plugins are available:
+![Loopstudios Landing Page](./screenshot.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+LIVE: https://dzik0.github.io/loopstudios-landing/
 
-## React Compiler
+Features
+Responsive UI: Switches between desktop and mobile headers
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hero section with interactive imagery and brand story
 
-## Expanding the ESLint configuration
+Dynamic creations grid populated from a data file
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Accessible, mobile-friendly layout with Tailwind CSS
+
+Modular React component architecture
+
+Tech Stack
+React
+
+Tailwind CSS
+
+JavaScript
+
+Vite (for fast local development and builds)
+
+Getting Started
+Prerequisites
+Node.js (v16+ recommended)
+
+Git
+
+Installation
+Clone the repository and install dependencies:
+
+text
+git clone https://github.com/Dzik0/loopstudios-landing.git
+cd loopstudios-landing
+npm install
+Running Locally
+Start the development server:
+
+text
+npm run dev
+Open http://localhost:5173 to view the app in your browser.
+
+Build
+Build the production assets:
+
+text
+npm run build
+Deployment
+This project can be deployed to GitHub Pages using the gh-pages package.
+
+Author
+Created by Dzik0.
