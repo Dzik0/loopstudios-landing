@@ -36,21 +36,18 @@ Git
 Installation
 Clone the repository and install dependencies:
 
-text
 git clone https://github.com/Dzik0/loopstudios-landing.git
 cd loopstudios-landing
 npm install
 Running Locally
 Start the development server:
 
-text
 npm run dev
 Open http://localhost:5173 to view the app in your browser.
 
 Build
 Build the production assets:
 
-text
 npm run build
 Deployment
 This project can be deployed to GitHub Pages using the gh-pages package.
